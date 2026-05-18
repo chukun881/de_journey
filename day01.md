@@ -1,4 +1,4 @@
-# 📅 Day 1 — Thursday, 15 May 2026
+# 📅 Day 1 — Friday, 15 May 2026
 # SQL Foundation: SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
 
 ---
@@ -14,11 +14,11 @@ By end of today, you should be able to:
 
 ---
 
-## ☀️ BLOCK 1: Setup + Theory (Morning, ~1 hour)
+## ☀️ BLOCK 1: Setup + Theory
 
 ---
 
-### Task 1: Setup Neon Cloud Database (20 min)
+### Task 1: Setup Neon Cloud Database
 
 Neon is a serverless PostgreSQL — your database lives in the cloud, accessible from any browser.
 
@@ -44,7 +44,7 @@ Neon is a serverless PostgreSQL — your database lives in the cloud, accessible
 
 ---
 
-### Task 2: Understand What a Database Actually Is (20 min)
+### Task 2: Understand What a Database Actually Is
 
 Before writing code, you need to understand what you're working with.
 
@@ -92,7 +92,7 @@ DATABASE: company_db
 
 ---
 
-### Task 3: What is SQL? (10 min)
+### Task 3: What is SQL?
 
 **SQL = Structured Query Language**
 
@@ -114,11 +114,11 @@ Today we focus on **SELECT** — reading data. This is 80% of what a data engine
 
 ---
 
-## 🔥 BLOCK 2: Hands-On SQL — Build & Query (Morning, ~2 hours)
+## 🔥 BLOCK 2: Hands-On SQL — Build & Query
 
 ---
 
-### Task 4: Create Your Practice Table (15 min)
+### Task 4: Create Your Practice Table
 
 Open your SQL editor (Neon or pgAdmin). Copy and run this ENTIRE block:
 
@@ -180,7 +180,7 @@ You should see 15 rows of employee data.
 
 ---
 
-### Task 5: SELECT — Reading Data (30 min)
+### Task 5: SELECT — Reading Data
 
 The most basic SQL query pattern:
 
@@ -234,7 +234,7 @@ SELECT name, department AS dept FROM employees;
 
 ---
 
-### Task 6: WHERE — Filtering Data (40 min)
+### Task 6: WHERE — Filtering Data
 
 SELECT gives you everything. WHERE lets you filter — "give me ONLY the rows that match this condition."
 
@@ -367,7 +367,7 @@ WHERE department = 'Marketing' OR salary > 9000;
 
 ---
 
-### Task 7: ORDER BY, LIMIT, DISTINCT (30 min)
+### Task 7: ORDER BY, LIMIT, DISTINCT
 
 ```sql
 -- 🔹 ORDER BY = sort your results
@@ -437,7 +437,7 @@ SELECT name, city FROM employees ORDER BY city ASC, name ASC;
 
 ---
 
-### Task 8: COUNT — Your First Aggregate (15 min)
+### Task 8: COUNT — Your First Aggregate
 
 ```sql
 -- 🔹 COUNT = how many rows?
@@ -507,11 +507,11 @@ ORDER BY hire_year;
 
 ---
 
-## 🌙 BLOCK 3: Practice + Consolidate (Evening, ~2 hours)
+## 🌙 BLOCK 3: Practice + Consolidate
 
 ---
 
-### Task 9: HackerRank SQL Problems (45 min)
+### Task 9: HackerRank SQL Problems
 
 Go to https://www.hackerrank.com/domains/sql
 
@@ -534,7 +534,7 @@ For each problem:
 
 ---
 
-### Task 10: Write Your Own Queries — Mini Scenario (30 min)
+### Task 10: Write Your Own Queries — Mini Scenario
 
 **Scenario:** Your boss (the Head of HR) sends you these questions. Write SQL to answer each one.
 
@@ -586,7 +586,7 @@ WHERE salary > (SELECT AVG(salary) FROM employees);
 
 ---
 
-### Task 11: SQLZoo Homework (30 min)
+### Task 11: SQLZoo Homework
 
 Complete these sections on https://sqlzoo.net:
 
@@ -597,7 +597,7 @@ If you finish early, start Section 2 "SELECT from World."
 
 ---
 
-### Task 12: Daily Reflection + GitHub Push (15 min)
+### Task 12: Daily Reflection + GitHub Push
 
 Create this file on your GitHub: `sql-practice/day01-notes.md`
 
@@ -660,7 +660,6 @@ git push
 | 11 | Day 1 notes written and pushed to GitHub | ☐ |
 
 **Total queries written today: ~40+**
-**Total time: ~4-5 hours**
 
 ---
 
