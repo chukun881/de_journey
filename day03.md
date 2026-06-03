@@ -1,4 +1,4 @@
-# 📅 Day 3 — Saturday, 17 May 2026
+# 📅 Day 3 — Sunday, 17 May 2026
 # SQL: Subqueries, CTEs (WITH clause), HAVING, CASE WHEN
 
 ---
