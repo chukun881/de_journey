@@ -1,4 +1,4 @@
-# 📅 Day 2 — Friday, 16 May 2026
+# 📅 Day 2 — Saturday, 16 May 2026
 # SQL JOINs: Connecting Tables Together
 
 ---
