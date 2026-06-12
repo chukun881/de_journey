@@ -361,11 +361,16 @@ WITH dept_avg AS (
     FROM employees
     GROUP BY dept_id
 )
-SELECT e.name, e.salary, da.avg_salary AS dept_avg,
-       e.salary - da.avg_salary AS diff_from_avg
+SELECT 
+    e.name, 
+    e.salary, 
+    da.avg_salary AS dept_avg,
+    CASE 
+        WHEN e.salary > da.avg_salary THEN 'Yes'
+        ELSE 'No' 
+    END AS is_above_average
 FROM employees e
-INNER JOIN dept_avg da ON e.dept_id = da.dept_id
-ORDER BY diff_from_avg DESC;
+INNER JOIN dept_avg da ON e.dept_id = da.dept_id;
 
 -- 12
 WITH city_stats AS (
