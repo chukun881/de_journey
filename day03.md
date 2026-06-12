@@ -361,10 +361,7 @@ WITH dept_avg AS (
     FROM employees
     GROUP BY dept_id
 )
-SELECT 
-    e.name, 
-    e.salary, 
-    da.avg_salary AS dept_avg,
+SELECT e.name, e.salary, da.avg_salary AS dept_avg,
     CASE 
         WHEN e.salary > da.avg_salary THEN 'Yes'
         ELSE 'No' 
