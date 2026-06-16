@@ -251,10 +251,18 @@ SELECT month, revenue,
 FROM monthly_revenue;
 
 -- 7
-SELECT month, revenue, 
-    LAG(revenue, 1) OVER (ORDER BY month) AS prev_month
-FROM monthly_revenue
-WHERE revenue < LAG(revenue, 1) OVER (ORDER BY month);
+WITH monthly_revenue_lag AS (
+    SELECT 
+        month,
+        revenue,
+        LAG(revenue, 1) OVER (ORDER BY month ASC) AS prev_month
+    FROM monthly_revenue
+)
+SELECT 
+    month, 
+    revenue
+FROM monthly_revenue_lag
+WHERE revenue < prev_month;
 ```
 </details>
 
