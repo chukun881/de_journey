@@ -1,4 +1,4 @@
-# 📅 Day 6 — Tuesday, 20 May 2026
+# 📅 Day 6
 # SQL Assessment Day: Timed Test + Weak Spot Review
 
 ---
