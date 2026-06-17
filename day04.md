@@ -1,4 +1,4 @@
-# 📅 Day 4 — Sunday, 18 May 2026
+# 📅 Day 4 
 # SQL: Window Functions (OVER, ROW_NUMBER, RANK, LAG, LEAD, SUM OVER)
 
 ---
