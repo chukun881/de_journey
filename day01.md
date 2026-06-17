@@ -1,4 +1,4 @@
-# 📅 Day 1 — Friday, 15 May 2026
+# 📅 Day 1
 # SQL Foundation: SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
 
 ---
