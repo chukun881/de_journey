@@ -1,4 +1,4 @@
-# 📅 Day 7 — Wednesday, 21 May 2026
+# 📅 Day 7
 # SQL Portfolio Project: End-to-End Data Analysis
 
 ---
