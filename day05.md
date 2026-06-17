@@ -1,4 +1,4 @@
-# 📅 Day 5 — Monday, 19 May 2026
+# 📅 Day 5
 # SQL Advanced: UNION, DDL, Data Types, Indexes, Query Performance, String/Date Functions
 
 ---
