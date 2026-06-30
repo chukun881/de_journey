@@ -1,4 +1,4 @@
-# 📅 Day 8 — Thursday, 22 May 2026
+# 📅 Day 8
 # Python Basics: Variables, Data Types, Operators, Input/Output
 
 ---
