@@ -200,7 +200,7 @@ print(len(email))           # 16 (length)
 # 🔹 Check if something is in a string
 sentence = "I love data engineering"
 print("data" in sentence)      # True
-print "python" in sentence)    # False
+print("python" in sentence)    # False
 
 # 🔹 f-strings (formatted strings) — THE way to combine variables and text
 name = "Alice"
