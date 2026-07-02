@@ -1,4 +1,4 @@
-# 📅 Day 9 — Friday, 23 May 2026
+# 📅 Day 9
 # Python Control Flow: if/else, for/while loops, functions
 
 ---
