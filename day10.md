@@ -1,4 +1,4 @@
-# 📅 Day 10 — Saturday, 24 May 2026
+# 📅 Day 10
 # Python Data Structures: Lists, Dictionaries, Sets, Tuples
 
 ---
